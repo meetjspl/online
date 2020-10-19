@@ -4,6 +4,6 @@ Ogólnopolskie spotkania Meet.js bez wychodzenia z domu.
 
 ## Kiedy następny event?
 
-**Kiedy?** Może uda się jeszcze w kwietniu!
+**Kiedy?** Celujemy w początek listopada
 
-**Gdzie?** Szukamy platformy streamingowej, która pomieści nas wszystkich i sponsora, który za to zapłaci.
+**Gdzie?** Damy znać, jakiej platformy streamingowej użyjemy
