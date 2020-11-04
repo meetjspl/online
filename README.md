@@ -4,6 +4,6 @@ Ogólnopolskie spotkania Meet.js bez wychodzenia z domu.
 
 ## Kiedy następny event?
 
-**Kiedy?** Celujemy w początek listopada
+**Kiedy?** 19.11.2020, 18:00
 
-**Gdzie?** Damy znać, jakiej platformy streamingowej użyjemy
+**Gdzie?** [ClickMeeting](https://intive.clickmeeting.com/meet-js-online-1/)
