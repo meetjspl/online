@@ -21,7 +21,7 @@
         text-align: center;
     }
 
-    img {
+    .logo {
         width: 600px;
         margin: 100px auto;
     }
@@ -30,11 +30,18 @@
         margin: 2em;
     }
 
+    a, img {
+        line-height: 30px;
+        vertical-align: middle;
+        color: #249fab;
+    }
+
     .btn {
         border-radius: 5px;
         background: rgba(189, 219, 89, 1);
         color: #fff;
         padding: 15px 30px;
+        margin: 0 10px;
         font-size: 1.2em;
         text-decoration: none;
         font-weight: bold;
@@ -42,13 +49,17 @@
 </style>
 
 <body>
-    <img src="logo.png" />
+    <img class="logo" src="logo.png" />
 
     <h1>meet.js Online #1</h1>
 
     <p><time datetime="2020-11-19T18:00:00.00+01:00">Czwartek, 19 listopada 2020, 18:00</time></p>
     <p> ClickMeeting.com </p>
-    <p><a class="btn" href="https://intive.clickmeeting.com/meet-js-online-1/">Wejdź</a></p>
+    <p>
+        <a class="btn" href="https://intive.clickmeeting.com/meet-js-online-1/">Wejdź na live stream</a>
+    </p><p>
+        <a class="" href="https://discord.gg/a63yXWQ">Pogadaj z nami na <img src="./discord-m.png" />Discord</a>
+    </p>
     <script>
         // window.location = 'https://intive.clickmeeting.com/meet-js-online-1/';
     </script>
