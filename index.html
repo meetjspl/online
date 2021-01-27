@@ -22,18 +22,23 @@
     }
 
     .logo {
-        width: 600px;
-        margin: 100px auto;
+        max-width: 600px;
+        width: 100%;
+        margin: 32px auto;
     }
 
     p {
-        margin: 2em;
+        margin-top: 2em;
+        margin-bottom: 2em;
     }
 
-    a, img {
+    a {
+        color: #249fab;
+    }
+
+    .discord {
         line-height: 30px;
         vertical-align: middle;
-        color: #249fab;
     }
 
     .btn {
@@ -46,6 +51,12 @@
         text-decoration: none;
         font-weight: bold;
     }
+
+    .agenda {
+        max-width: 32em;
+        margin: 0 auto;
+        text-align: left;
+    }
 </style>
 
 <body>
@@ -54,14 +65,14 @@
     <h1>meet.js Online #2</h1>
 
     <p><time datetime="2021-02-11T18:00:00.00+01:00">Czwartek, 11 lutego 2021, 18:00</time></p>
-    <p> ClickMeeting.com </p>
+
     <p>
         <a class="btn" href="https://meetjspl.clickmeeting.com/meet-js-online-2/">Wejdź na live stream</a>
     </p><p>
-        <a class="" href="https://discord.gg/a63yXWQ">Pogadaj z nami na <img src="./discord-m.png" />Discord</a>
+        <a class="discord" href="https://discord.gg/a63yXWQ">Pogadaj z nami na <img class="discord" src="./discord-m.png" />Discord</a>
     </p>
     <h2>Agenda</h2>
-    <ol>
+    <ol class="agenda">
         <li><a href="https://github.com/meetjspl/online/issues/6">Adrian Witt - Tailwind CSS - a utility-first CSS framework</a></li>
         <li><a href="https://github.com/meetjspl/online/issues/3">Adrian Mróź - Podstawy wizualizacji danych (przykłady w React i D3)</a></li>
     </ol>
