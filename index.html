@@ -1,85 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" value="meet.js w czasach zarazy. Czwartek, 19 listopada 2020, 18:00. ClickMeeting.com">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      value="meet.js w czasach zarazy. Czwartek, 19 listopada 2020, 18:00. ClickMeeting.com"
+    />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@meetjs" />
     <meta name="twitter:creator" content="@meetjs" />
-    <meta property="og:url" content="https://intive.clickmeeting.com/meet-js-online-1/" />
+    <meta
+      property="og:url"
+      content="https://intive.clickmeeting.com/meet-js-online-1/"
+    />
     <meta property="og:title" content="meet.js Online #1" />
-    <meta property="og:description" content="Czwartek, 19 listopada 2020, 18:00" />
-    <meta property="og:image" content="https://online.meetjs.pl/meetjs_online_1.png" />
+    <meta
+      property="og:description"
+      content="Czwartek, 19 listopada 2020, 18:00"
+    />
+    <meta
+      property="og:image"
+      content="https://online.meetjs.pl/meetjs_online_1.png"
+    />
     <title>meet.js Online #1</title>
-</head>
-<style>
+  </head>
+  <style>
     body {
-        font-family: "Open Sans", "Tahoma", "Arial", sans-serif;
-        font-size: 14pt;
-        text-align: center;
+      font-family: "Open Sans", "Tahoma", "Arial", sans-serif;
+      font-size: 14pt;
+      text-align: center;
     }
 
     .logo {
-        max-width: 600px;
-        width: 100%;
-        margin: 32px auto;
+      max-width: 600px;
+      width: 100%;
+      margin: 32px auto;
     }
 
-    p {
-        margin-top: 2em;
-        margin-bottom: 2em;
+    p, form {
+      margin-top: 2em;
+      margin-bottom: 2em;
     }
 
     a {
-        color: #249fab;
+      color: #249fab;
     }
 
     .discord {
-        line-height: 30px;
-        vertical-align: middle;
+      line-height: 30px;
+      vertical-align: middle;
     }
 
     .btn {
-        border-radius: 5px;
-        background: rgba(189, 219, 89, 1);
-        color: #fff;
-        padding: 15px 30px;
-        margin: 0 10px;
-        font-size: 1.2em;
-        text-decoration: none;
-        font-weight: bold;
+      border-radius: 5px;
+      background: rgba(189, 219, 89, 1);
+      color: #fff;
+      padding: 15px 30px;
+      margin: 0 10px;
+      font-size: 1.2em;
+      text-decoration: none;
+      font-weight: bold;
     }
 
     .agenda {
-        max-width: 32em;
-        margin: 0 auto;
-        text-align: left;
+      max-width: 32em;
+      margin: 0 auto;
+      text-align: left;
     }
-</style>
 
-<body>
+    .calendars {
+      display: flex;
+      list-style-type: none;
+      margin: auto;
+      margin-top: -16px;
+      padding: 0;
+      justify-content: center;
+    }
+
+    .calendars a {
+      margin-left: 16px;
+      text-decoration: none;
+    }
+
+    .calendars img {
+        margin-left: 4px;
+    }
+
+    .calendars img, .calendars span {
+        vertical-align: middle;
+    }
+
+    .calendars span {
+        text-decoration: underline;
+    }
+  </style>
+
+  <body>
     <img class="logo" src="logo.png" />
 
     <h1>meet.js Online #2</h1>
 
-    <p><time datetime="2021-02-11T18:00:00.00+01:00">Czwartek, 11 lutego 2021, 18:00</time></p>
+    <p>
+      <time datetime="2021-02-11T18:00:00.00+01:00"
+        >Czwartek, 11 lutego 2021, 18:00</time
+      >
+      <ol class="calendars">
+        <li>
+            <a target="_blank" id="google-calendar">
+                <img width="40" height="40" src="./google_calendar.png" alt="Logo Google Calendar" />
+            </a>
+        </li>
+        <li>
+            <a target="_blank" id="outlook-calendar">
+                <img width="40" height="40" src="./outlook_calendar.jpg" alt="Logo Outlook Calendar" />
+            </a>
+        </li>
+        <li>
+            <a target="_blank" id="ical-calendar" download>
+                <img width="40" height="40" src="./ical.png" alt="Logo iCal" />
+            </a>
+        </li>
+      </ol>
+    </p>
 
     <p>
-        <a class="btn" href="https://meetjspl.clickmeeting.com/meet-js-online-2/">Wejdź na live stream</a>
-    </p><p>
-        <a class="discord" href="https://discord.gg/a63yXWQ">Pogadaj z nami na <img class="discord" src="./discord-m.png" />Discord</a>
+      <a class="btn" href="https://meetjspl.clickmeeting.com/meet-js-online-2/"
+        >Wejdź na live stream</a
+      >
+    </p>
+
+    <p>
+      <a class="discord" href="https://discord.gg/a63yXWQ"
+        >Pogadaj z nami na
+        <img class="discord" src="./discord-m.png" />Discord</a
+      >
     </p>
     <h2>Agenda</h2>
     <ol class="agenda">
-        <li><a href="https://github.com/meetjspl/online/issues/6">Adrian Witt - Tailwind CSS - a utility-first CSS framework</a></li>
-        <li><a href="https://github.com/meetjspl/online/issues/3">Adrian Mróź - Podstawy wizualizacji danych (przykłady w React i D3)</a></li>
+      <li>
+        <a href="https://github.com/meetjspl/online/issues/6"
+          >Adrian Witt - Tailwind CSS - a utility-first CSS framework</a
+        >
+      </li>
+      <li>
+        <a href="https://github.com/meetjspl/online/issues/3"
+          >Adrian Mróź - Podstawy wizualizacji danych (przykłady w React i
+          D3)</a
+        >
+      </li>
     </ol>
-    <p>Sponsorem tej edycji wydarzenia jest firma <a href="https://sonalake.com/">Sonalake</a>.</p>
-    <script>
-        // window.location = 'https://intive.clickmeeting.com/meet-js-online-1/';
-    </script>
-</body>
+    <p>
+      Sponsorem tej edycji wydarzenia jest firma
+      <a href="https://sonalake.com/">Sonalake</a>.
+    </p>
+    <script type="module">
+      import {
+        google,
+        outlook,
+        ics,
+      } from "https://cdn.jsdelivr.net/gh/erykpiast/calendar-link@020f3250ce652077a3561f0413159df44e6d9695/dist/index.modern.js";
 
+      const event = {
+        title: "meet.js Online #2",
+        start: "2021-02-11T18:00:00.00+01:00",
+        duration: [90, "minutes"],
+        description: "Wejdź na live stream: https://meetjspl.clickmeeting.com/meet-js-online-2/\n\nZobacz szczegóły na https://online.meetjs.pl",
+        url: "https://meetjspl.clickmeeting.com/meet-js-online-2/",
+      };
+
+      document
+        .querySelector("#google-calendar")
+        .setAttribute("href", encodeURI(google(event)));
+      document
+        .querySelector("#outlook-calendar")
+        .setAttribute("href", encodeURI(outlook(event)));
+      document
+        .querySelector("#ical-calendar")
+        .setAttribute("href", ics(event));
+    </script>
+  </body>
 </html>
