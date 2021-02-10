@@ -171,10 +171,10 @@
 
       document
         .querySelector("#google-calendar")
-        .setAttribute("href", encodeURI(google(event)));
+        .setAttribute("href", google(event));
       document
         .querySelector("#outlook-calendar")
-        .setAttribute("href", encodeURI(outlook(event)));
+        .setAttribute("href", outlook(event));
       document
         .querySelector("#ical-calendar")
         .setAttribute("href", ics(event));
